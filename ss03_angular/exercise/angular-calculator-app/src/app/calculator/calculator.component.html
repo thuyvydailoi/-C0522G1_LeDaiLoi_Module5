@@ -1,0 +1,16 @@
+<form>
+  <input type="number" name="numberA" [(ngModel)]="numberA">
+  <br> <br>
+  <input type="number" name="numberB" [(ngModel)]="numberB">
+  <br> <br>
+  <select name="open" #cal>
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+  <br> <br>
+  <button type="submit" (click)="resultNumber(cal.value)">Submit</button>
+
+  <div>{{result}}</div>
+</form>
