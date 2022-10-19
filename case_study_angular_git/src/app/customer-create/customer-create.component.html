@@ -1,0 +1,102 @@
+<body>
+<div class="mx-5 px-5 pt-3">
+  <h2 class="text-center fw-bold text-dark">ADD NEW CUSTOMER</h2>
+
+  <div class="d-flex justify-content-center">
+    <form class="w-50 border border-2 border-success p-3 rounded formCSS" method="POST" novalidate="novalidate">
+      <div class="form-group">
+        <label for="name" class="h6">Customer Name:</label>
+        <p style="color: red"></p>
+        <div class="input-group">
+          <input type="text" id="name" class="form-control" placeholder="Input customer name.."/>
+          <span class="input-group-text"><i class="fa-solid fa-person-circle-question"></i></span>
+        </div>
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="dateOfBirth" class="h6">Date Of Birth:</label>
+        <p style="color: red"></p>
+        <input type="date" id="dateOfBirth" class="form-control">
+      </div>
+
+      <div class="mt-3 form-group">
+        <label class="h6">Gender:</label>
+        <p style="color: red"></p>
+        <div class="d-flex">
+          <label class="d-block me-4">
+            <input type="radio"/> Nam
+            <i class="fa-solid fa-mars"></i>
+          </label>
+
+          <label class="d-block me-4">
+            <input type="radio"/> Nữ
+            <i class="fa-solid fa-venus"></i>
+          </label>
+        </div>
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="idCard" class="h6">Id Card:</label>
+
+        <div class="input-group">
+          <input type="text" id="idCard" class="form-select" placeholder="Input id card"/>
+          <span class="input-group-text"><i class="fa-solid fa-id-card"></i></span>
+        </div>
+
+        <p style="color: red" ></p>
+
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="phone" class="h6">Phone Number:</label>
+
+        <div class="input-group">
+          <input type="text" id="phone" class="form-select" placeholder="Input phone number.."/>
+          <span class="input-group-text"><i class="fa-solid fa-square-phone"></i></span>
+        </div>
+
+        <p style="color: red"></p>
+
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="email" class="h6">Email:</label>
+
+        <div class="input-group">
+          <input type="text" id="email" class="form-control" placeholder="Input email.."/>
+          <span class="input-group-text"><i class="fa-solid fa-envelope-circle-check"></i></span>
+        </div>
+
+        <p style="color: red"></p>
+
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="address" class="h6">Address:</label>
+
+        <div class="input-group">
+          <input type="text" id="address" class="form-control" placeholder="Input address.."/>
+          <span class="input-group-text"><i class="fa-solid fa-map-location-dot"></i></span>
+        </div>
+
+        <p style="color: red"></p>
+
+      </div>
+
+      <div class="mt-3 form-group">
+        <label class="h6" for="customerType">Customer Type:</label>
+        <div class="input-group">
+          <select id="customerType" class="form-select">
+            <option>Diamond</option>
+            <option>platinum</option>
+            <option>Gold</option>
+            <option>Silver</option>
+            <option>Member</option>
+          </select>
+          <span class="input-group-text"><i class="fa-solid fa-ranking-star"></i></span>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
