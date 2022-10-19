@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angulalr-navbar-footer'`, () => {
+  it(`should have as title 'angular-hacker-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angulalr-navbar-footer');
+    expect(app.title).toEqual('angular-hacker-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angulalr-navbar-footer app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-hacker-app app is running!');
   });
 });
