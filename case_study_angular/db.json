@@ -1,0 +1,201 @@
+{
+  "facilities": [
+    {
+      "facilityId": 1,
+      "facilityName": "Villa Thuyen",
+      "area": "100m",
+      "cost": "1000000",
+      "maxPeople": "6",
+      "standardRoom": "basic",
+      "description": "1111",
+      "poolArea": "111",
+      "numberOfFloors": "1",
+      "facilityFree": "Giặt là",
+      "facilityType": "Villa",
+      "rentType": "Năm"
+    },
+    {
+      "facilityId": 2,
+      "facilityName": "Villa Thuyen",
+      "area": "100m",
+      "cost": "1000000",
+      "maxPeople": "6",
+      "standardRoom": "basic",
+      "description": "1111",
+      "poolArea": "111",
+      "numberOfFloors": "1",
+      "facilityFree": "Giặt là",
+      "facilityType": "Villa",
+      "rentType": "Năm"
+    },
+    {
+      "facilityId": 3,
+      "facilityName": "Villa Thuyen",
+      "area": "100m",
+      "cost": "1000000",
+      "maxPeople": "6",
+      "standardRoom": "basic",
+      "description": "1111",
+      "poolArea": "111",
+      "numberOfFloors": "1",
+      "facilityFree": "Giặt là",
+      "facilityType": "Villa",
+      "rentType": "Năm"
+    },
+    {
+      "facilityId": 4,
+      "facilityName": "Villa Thuyen",
+      "area": "100m",
+      "cost": "1000000",
+      "maxPeople": "6",
+      "standardRoom": "basic",
+      "description": "1111",
+      "poolArea": "111",
+      "numberOfFloors": "1",
+      "facilityFree": "Giặt là",
+      "facilityType": "Villa",
+      "rentType": "Năm"
+    },
+    {
+      "facilityId": 5,
+      "facilityName": "Villa Thuyen",
+      "area": "100m",
+      "cost": "1000000",
+      "maxPeople": "6",
+      "standardRoom": "basic",
+      "description": "1111",
+      "poolArea": "111",
+      "numberOfFloors": "1",
+      "facilityFree": "Giặt là",
+      "facilityType": "Villa",
+      "rentType": "Năm"
+    },
+    {
+      "facilityId": 6,
+      "facilityName": "Villa Thuyen",
+      "area": "100m",
+      "cost": "1000000",
+      "maxPeople": "6",
+      "standardRoom": "basic",
+      "description": "1111",
+      "poolArea": "111",
+      "numberOfFloors": "1",
+      "facilityFree": "Giặt là",
+      "facilityType": "Villa",
+      "rentType": "Năm"
+    }
+  ],
+
+  "customerList": [{
+    "customerId": 1,
+    "customerName": "Huỳnh Trung Thuyên",
+    "customerBirthday": "06/08/1994",
+    "customerGender": 1,
+    "customerPhone": "0935509475",
+    "customerEmail": "trungthuyenhuynh0608@gmail.com",
+    "customerAddress": "chợ ven đường Hoà Khánh",
+    "customerType": "Diamond"
+  },
+    {
+    "customerId": 2,
+    "customerName": "Huỳnh Trung Thuyên",
+    "customerBirthday": "06/08/1994",
+    "customerGender": 1,
+    "customerPhone": "0935509475",
+    "customerEmail": "trungthuyenhuynh0608@gmail.com",
+    "customerAddress": "chợ ven đường Hoà Khánh",
+    "customerType": "Diamond"
+  },
+    {
+      "customerId": 3,
+      "customerName": "Huỳnh Trung Thuyên",
+      "customerBirthday": "06/08/1994",
+      "customerGender": 1,
+      "customerPhone": "0935509475",
+      "customerEmail": "trungthuyenhuynh0608@gmail.com",
+      "customerAddress": "chợ ven đường Hoà Khánh",
+      "customerType": "Diamond"
+    },
+    {
+      "customerId": 4,
+      "customerName": "Huỳnh Trung Thuyên",
+      "customerBirthday": "06/08/1994",
+      "customerGender": 1,
+      "customerPhone": "0935509475",
+      "customerEmail": "trungthuyenhuynh0608@gmail.com",
+      "customerAddress": "chợ ven đường Hoà Khánh",
+      "customerType": "Diamond"
+    },
+    {
+      "customerId": 5,
+      "customerName": "Huỳnh Trung Thuyên",
+      "customerBirthday": "06/08/1994",
+      "customerGender": 1,
+      "customerPhone": "0935509475",
+      "customerEmail": "trungthuyenhuynh0608@gmail.com",
+      "customerAddress": "chợ ven đường Hoà Khánh",
+      "customerType": "Diamond"
+    },
+    {
+      "customerId": 6,
+      "customerName": "Huỳnh Trung Thuyên",
+      "customerBirthday": "06/08/1994",
+      "customerGender": 1,
+      "customerPhone": "0935509475",
+      "customerEmail": "trungthuyenhuynh0608@gmail.com",
+      "customerAddress": "chợ ven đường Hoà Khánh",
+      "customerType": "Diamond"
+    }
+  ],
+
+  "contractList": [
+    {
+      "contractId": 1,
+      "startDate": "13/10/2022",
+      "endDate": "16/10/2022",
+      "deposit": "90000",
+      "customerName": "Lê Đại Lợi",
+      "facilityName": "Villa Thuyên"
+    },
+    {
+      "contractId": 2,
+      "startDate": "13/10/2022",
+      "endDate": "16/10/2022",
+      "deposit": "90000",
+      "customerName": "Lê Đại Lợi",
+      "facilityName": "Villa Thuyên"
+    },
+    {
+      "contractId": 3,
+      "startDate": "13/10/2022",
+      "endDate": "16/10/2022",
+      "deposit": "90000",
+      "customerName": "Lê Đại Lợi",
+      "facilityName": "Villa Thuyên"
+    },
+    {
+      "contractId": 4,
+      "startDate": "13/10/2022",
+      "endDate": "16/10/2022",
+      "deposit": "90000",
+      "customerName": "Lê Đại Lợi",
+      "facilityName": "Villa Thuyên"
+    },
+    {
+      "contractId": 5,
+      "startDate": "13/10/2022",
+      "endDate": "16/10/2022",
+      "deposit": "90000",
+      "customerName": "Lê Đại Lợi",
+      "facilityName": "Villa Thuyên"
+    },
+    {
+      "contractId": 6,
+      "startDate": "13/10/2022",
+      "endDate": "16/10/2022",
+      "deposit": "90000",
+      "customerName": "Lê Đại Lợi",
+      "facilityName": "Villa Thuyên"
+    }
+  ]
+}
