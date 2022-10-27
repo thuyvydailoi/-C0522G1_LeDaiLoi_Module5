@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Facility} from "../../model/facility";
+import {FacilityService} from "../../service/facility/facility.service";
 
 @Component({
   selector: 'app-facility',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FacilityComponent implements OnInit {
 
-  constructor() { }
+  facilities: Facility[] = [];
 
-  ngOnInit(): void {
+  constructor(private facilityService: FacilityService) {
   }
 
+  o
+
+  ngOnInit(): void {
+    this.getAll();
+  }
+
+  private getAll() {
+    this.facilityService.findAll().subscribe(value => {
+      this.facilities = value;
+    })
+  }
 }

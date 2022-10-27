@@ -1,7 +1,7 @@
 {
   "facilities": [
     {
-      "facilityId": 1,
+      "id": 1,
       "facilityName": "Villa Thuyen",
       "area": "100m",
       "cost": "1000000",
@@ -15,7 +15,7 @@
       "rentType": "Năm"
     },
     {
-      "facilityId": 2,
+      "id": 2,
       "facilityName": "Villa Thuyen",
       "area": "100m",
       "cost": "1000000",
@@ -29,7 +29,7 @@
       "rentType": "Năm"
     },
     {
-      "facilityId": 3,
+      "id": 3,
       "facilityName": "Villa Thuyen",
       "area": "100m",
       "cost": "1000000",
@@ -43,7 +43,7 @@
       "rentType": "Năm"
     },
     {
-      "facilityId": 4,
+      "id": 4,
       "facilityName": "Villa Thuyen",
       "area": "100m",
       "cost": "1000000",
@@ -57,7 +57,7 @@
       "rentType": "Năm"
     },
     {
-      "facilityId": 5,
+      "id": 5,
       "facilityName": "Villa Thuyen",
       "area": "100m",
       "cost": "1000000",
@@ -71,7 +71,7 @@
       "rentType": "Năm"
     },
     {
-      "facilityId": 6,
+      "id": 6,
       "facilityName": "Villa Thuyen",
       "area": "100m",
       "cost": "1000000",
@@ -85,117 +85,341 @@
       "rentType": "Năm"
     }
   ],
-
-  "customerList": [{
-    "customerId": 1,
-    "customerName": "Huỳnh Trung Thuyên",
-    "customerBirthday": "06/08/1994",
-    "customerGender": 1,
-    "customerPhone": "0935509475",
-    "customerEmail": "trungthuyenhuynh0608@gmail.com",
-    "customerAddress": "chợ ven đường Hoà Khánh",
-    "customerType": "Diamond"
-  },
+  "customerList": [
     {
-    "customerId": 2,
-    "customerName": "Huỳnh Trung Thuyên",
-    "customerBirthday": "06/08/1994",
-    "customerGender": 1,
-    "customerPhone": "0935509475",
-    "customerEmail": "trungthuyenhuynh0608@gmail.com",
-    "customerAddress": "chợ ven đường Hoà Khánh",
-    "customerType": "Diamond"
-  },
-    {
-      "customerId": 3,
+      "id": 2,
       "customerName": "Huỳnh Trung Thuyên",
       "customerBirthday": "06/08/1994",
       "customerGender": 1,
       "customerPhone": "0935509475",
       "customerEmail": "trungthuyenhuynh0608@gmail.com",
       "customerAddress": "chợ ven đường Hoà Khánh",
-      "customerType": "Diamond"
+      "customerType": {
+        "id": 1,
+        "customerTypeName": "Diamond"
+      }
     },
     {
-      "customerId": 4,
+      "id": 3,
       "customerName": "Huỳnh Trung Thuyên",
       "customerBirthday": "06/08/1994",
       "customerGender": 1,
       "customerPhone": "0935509475",
       "customerEmail": "trungthuyenhuynh0608@gmail.com",
       "customerAddress": "chợ ven đường Hoà Khánh",
-      "customerType": "Diamond"
+      "customerType": {
+        "id": 1,
+        "customerTypeName": "Diamond"
+      }
     },
     {
-      "customerId": 5,
+      "id": 4,
       "customerName": "Huỳnh Trung Thuyên",
       "customerBirthday": "06/08/1994",
       "customerGender": 1,
       "customerPhone": "0935509475",
       "customerEmail": "trungthuyenhuynh0608@gmail.com",
       "customerAddress": "chợ ven đường Hoà Khánh",
-      "customerType": "Diamond"
-    },
-    {
-      "customerId": 6,
-      "customerName": "Huỳnh Trung Thuyên",
-      "customerBirthday": "06/08/1994",
-      "customerGender": 1,
-      "customerPhone": "0935509475",
-      "customerEmail": "trungthuyenhuynh0608@gmail.com",
-      "customerAddress": "chợ ven đường Hoà Khánh",
-      "customerType": "Diamond"
+      "customerType": {
+        "id": 1,
+        "customerTypeName": "Diamond"
+      }
     }
   ],
-
-  "contractList": [
+  "rentTypes": [
     {
-      "contractId": 1,
-      "startDate": "13/10/2022",
-      "endDate": "16/10/2022",
-      "deposit": "90000",
-      "customerName": "Lê Đại Lợi",
-      "facilityName": "Villa Thuyên"
+      "id": 1,
+      "rentTypeName": "Giờ"
     },
     {
-      "contractId": 2,
-      "startDate": "13/10/2022",
-      "endDate": "16/10/2022",
-      "deposit": "90000",
-      "customerName": "Lê Đại Lợi",
-      "facilityName": "Villa Thuyên"
+      "id": 2,
+      "rentTypeName": "Ngày"
     },
     {
-      "contractId": 3,
-      "startDate": "13/10/2022",
-      "endDate": "16/10/2022",
-      "deposit": "90000",
-      "customerName": "Lê Đại Lợi",
-      "facilityName": "Villa Thuyên"
+      "id": 3,
+      "rentTypeName": "Tháng"
     },
     {
-      "contractId": 4,
-      "startDate": "13/10/2022",
-      "endDate": "16/10/2022",
-      "deposit": "90000",
-      "customerName": "Lê Đại Lợi",
-      "facilityName": "Villa Thuyên"
+      "id": 4,
+      "rentTypeName": "Năm"
+    }
+  ],
+  "facilityTypes": [
+    {
+      "id": 1,
+      "facilityTypeName": "Villa"
     },
     {
-      "contractId": 5,
-      "startDate": "13/10/2022",
-      "endDate": "16/10/2022",
-      "deposit": "90000",
-      "customerName": "Lê Đại Lợi",
-      "facilityName": "Villa Thuyên"
+      "id": 2,
+      "facilityTypeName": "House"
     },
     {
-      "contractId": 6,
-      "startDate": "13/10/2022",
-      "endDate": "16/10/2022",
-      "deposit": "90000",
-      "customerName": "Lê Đại Lợi",
-      "facilityName": "Villa Thuyên"
+      "id": 3,
+      "facilityTypeName": "Room"
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "customerTypeName": "Diamond"
+    },
+    {
+      "id": 2,
+      "customerTypeName": "Platinum"
+    },
+    {
+      "id": 3,
+      "customerTypeName": "Gold"
+    },
+    {
+      "id": 4,
+      "customerTypeName": "Silver"
+    },
+    {
+      "id": 5,
+      "customerTypeName": "Member"
+    }
+  ],
+  "contract": [
+    {
+      "id": 1,
+      "startDate": "2022-10-20",
+      "endDate": "2022-10-21",
+      "deposit": 1000000,
+      "customer": {
+        "id": 4,
+        "customerName": "Hồ Thị Thủy Tiên",
+        "customerBirthday": "2000-03-20",
+        "customerGender": 1,
+        "customerIdCard": "132222264",
+        "customerPhone": "0904444444",
+        "customerEmail": "tien.map.mo@gmail.com",
+        "customerAddress": "huyện Núi Thành, Quảng Nam",
+        "customerTypeName": {
+          "id": 3,
+          "customerTypeName": "Gold"
+        }
+      },
+      "facility": {
+        "id": 5,
+        "facilityName": "Villa Beach Front Thymeleaf",
+        "area": 2000,
+        "cost": 10500000,
+        "maxPeople": 8,
+        "standardRoom": "Vip",
+        "description": "Có hồ bơi",
+        "poolArea": 100,
+        "numberOfFloors": 4,
+        "facilityFree": "",
+        "rentType": {
+          "id": 2,
+          "rentTypeName": "Ngày"
+        },
+        "facilityType": {
+          "id": 1,
+          "facilityTypeName": "Villa"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "startDate": "2022-10-20",
+      "endDate": "2022-11-20",
+      "deposit": 1500000,
+      "customer": {
+        "id": 7,
+        "customerName": "Hồ Bảo Ân",
+        "customerBirthday": "1993-01-02",
+        "customerGender": 2,
+        "customerIdCard": "123445664",
+        "customerPhone": "0907777777",
+        "customerEmail": "an.dau.khat@gmail.com",
+        "customerAddress": "bản LắkkKonKu, Đắk Lắk",
+        "customerTypeName": {
+          "id": 5,
+          "customerTypeName": "Diamond"
+        }
+      },
+      "facility": {
+        "id": 6,
+        "facilityName": "Spring Framework House 01",
+        "area": 500,
+        "cost": 7000000,
+        "maxPeople": 5,
+        "standardRoom": "Vip",
+        "description": "Có ghế tình yêu",
+        "poolArea": 0,
+        "numberOfFloors": 3,
+        "facilityFree": "",
+        "rentType": {
+          "id": 3,
+          "rentTypeName": "Tháng"
+        },
+        "facilityType": {
+          "id": 2,
+          "facilityTypeName": "House"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "startDate": "2022-10-21",
+      "endDate": "2022-10-22",
+      "deposit": 0,
+      "customer": {
+        "id": 1,
+        "customerName": "Võ Văn Tý",
+        "customerBirthday": "2001-11-20",
+        "customerGender": 0,
+        "customerIdCard": "123456789",
+        "customerPhone": "0901111111",
+        "customerEmail": "cu.ty@gmail.com",
+        "customerAddress": "bản LắkKonKu, Gia Lai",
+        "customerTypeName": {
+          "id": 3,
+          "customerTypeName": "Gold"
+        }
+      },
+      "facility": {
+        "id": 4,
+        "facilityName": "Villa Beach Back Jquery",
+        "area": 1200,
+        "cost": 7500000,
+        "maxPeople": 7,
+        "standardRoom": "Vip",
+        "description": "Có hồ bơi",
+        "poolArea": 80,
+        "numberOfFloors": 4,
+        "facilityFree": "",
+        "rentType": {
+          "id": 2,
+          "rentTypeName": "Ngày"
+        },
+        "facilityType": {
+          "id": 1,
+          "facilityTypeName": "Villa"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "startDate": "2022-10-22",
+      "endDate": "2022-10-23",
+      "deposit": 800000,
+      "customer": {
+        "id": 6,
+        "customerName": "Hồ Văn Nam",
+        "customerBirthday": "1993-07-26",
+        "customerGender": 2,
+        "customerIdCard": "1555555664",
+        "customerPhone": "0906666666",
+        "customerEmail": "ngoc.huyen@gmail.com",
+        "customerAddress": "núi Thần Tài, Quảng Nam",
+        "customerTypeName": {
+          "id": 5,
+          "customerTypeName": "Diamond"
+        }
+      },
+      "facility": {
+        "id": 5,
+        "facilityName": "Villa Beach Front Thymeleaf",
+        "area": 2000,
+        "cost": 10500000,
+        "maxPeople": 8,
+        "standardRoom": "Vip",
+        "description": "Có hồ bơi",
+        "poolArea": 100,
+        "numberOfFloors": 4,
+        "facilityFree": "",
+        "rentType": {
+          "id": 2,
+          "rentTypeName": "Ngày"
+        },
+        "facilityType": {
+          "id": 1,
+          "facilityTypeName": "Villa"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "startDate": "2022-10-23",
+      "endDate": "2022-10-24",
+      "deposit": 0,
+      "customer": {
+        "id": 5,
+        "customerName": "Đặng Ngọc Huy",
+        "customerBirthday": "1998-10-20",
+        "customerGender": 2,
+        "customerIdCard": "132316358",
+        "customerPhone": "0905555555",
+        "customerEmail": "huy3D@gmail.com",
+        "customerAddress": "chợ Miếu Bông, Quảng Nam",
+        "customerTypeName": {
+          "id": 1,
+          "customerTypeName": "Member"
+        }
+      },
+      "facility": {
+        "id": 4,
+        "facilityName": "Villa Beach Back Jquery",
+        "area": 1200,
+        "cost": 7500000,
+        "maxPeople": 7,
+        "standardRoom": "Vip",
+        "description": "Có hồ bơi",
+        "poolArea": 80,
+        "numberOfFloors": 4,
+        "facilityFree": "",
+        "rentType": {
+          "id": 2,
+          "rentTypeName": "Ngày"
+        },
+        "facilityType": {
+          "id": 1,
+          "facilityTypeName": "Villa"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "startDate": "2022-10-20",
+      "endDate": "2022-10-21",
+      "deposit": 120000,
+      "customer": {
+        "id": 2,
+        "customerName": "Hồ Thị Thủy Lợi",
+        "customerBirthday": "1997-02-14",
+        "customerGender": 2,
+        "customerIdCard": "132314664",
+        "customerPhone": "0902222222",
+        "customerEmail": "ho.thuy.loi@gmail.com",
+        "customerAddress": "chùa Linh Ứng, Đà Nẵng",
+        "customerTypeName": {
+          "id": 5,
+          "customerTypeName": "Diamond"
+        }
+      },
+      "facility": {
+        "id": 5,
+        "facilityName": "Villa Beach Front Thymeleaf",
+        "area": 2000,
+        "cost": 10500000,
+        "maxPeople": 8,
+        "standardRoom": "Vip",
+        "description": "Có hồ bơi",
+        "poolArea": 100,
+        "numberOfFloors": 4,
+        "facilityFree": "",
+        "rentType": {
+          "id": 2,
+          "rentTypeName": "Ngày"
+        },
+        "facilityType": {
+          "id": 1,
+          "facilityTypeName": "Villa"
+        }
+      }
     }
   ]
 }
