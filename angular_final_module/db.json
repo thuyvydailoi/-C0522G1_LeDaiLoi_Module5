@@ -1,0 +1,256 @@
+{
+  "danhSachSoTietKiem": [
+    {
+      "tenKhachHang": {
+        "id": 2,
+        "tenKhachHang": "Lê Đại Lụi"
+      },
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      },
+      "soTien": "10000000",
+      "laiSuat": "2",
+      "uuDai": "Ba con soi",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 4,
+        "tenKhachHang": "Lê Đại Thuyên"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      }
+    },
+    {
+      "id": 1,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 5,
+        "tenKhachHang": "Lê Đại Công"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      }
+    },
+    {
+      "id": 6,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 6,
+        "tenKhachHang": "Lê Đại Đạt"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      }
+    },
+    {
+      "id": 7,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 7,
+        "tenKhachHang": "Lê Đại Trí"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      }
+    },
+    {
+      "tenKhachHang": {
+        "id": 2,
+        "tenKhachHang": "Lê Đại Lụi"
+      },
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      },
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "id": 8
+    },
+    {
+      "tenKhachHang": {
+        "id": 3,
+        "tenKhachHang": "Lê Đại Hụi"
+      },
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "kyHan": {
+        "id": 4,
+        "tenKyHan": "5 năm"
+      },
+      "soTien": "100000",
+      "laiSuat": "2%",
+      "uuDai": "Ba con soi",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 10,
+        "tenKhachHang": "Lê Đại Đại"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      },
+    {
+      "id": 10,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 10,
+        "tenKhachHang": "Lê Đại Đại"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      },
+    {
+      "id": 10,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 10,
+        "tenKhachHang": "Lê Đại Đại"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      },
+    {
+      "id": 10,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 10,
+        "tenKhachHang": "Lê Đại Đại"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      },
+    {
+      "id": 10,
+      "ngayMoSo": "2001-11-20",
+      "thoiGianBatDau": "1997-02-14",
+      "soTien": "100000",
+      "laiSuat": "8%",
+      "uuDai": "Ba con soi",
+      "khachHang": {
+        "id": 10,
+        "tenKhachHang": "Lê Đại Đại"
+      },
+      "kyHan": {
+        "id": 1,
+        "tenKyHan": "3 tháng"
+      }
+    }
+  ],
+  "danhSachKyHan": [
+    {
+      "id": 1,
+      "tenKyHan": "3 tháng"
+    },
+    {
+      "id": 2,
+      "tenKyHan": "6 tháng"
+    },
+    {
+      "id": 3,
+      "tenKyHan": "1 năm"
+    },
+    {
+      "id": 4,
+      "tenKyHan": "5 năm"
+    },
+    {
+      "id": 5,
+      "tenKyHan": "Không kỳ hạn"
+    }
+  ],
+  "danhSachKhachHang": [
+    {
+      "id": 1,
+      "tenKhachHang": "Lê Đại Lợi"
+    },
+    {
+      "id": 2,
+      "tenKhachHang": "Lê Đại Lụi"
+    },
+    {
+      "id": 3,
+      "tenKhachHang": "Lê Đại Hụi"
+    },
+    {
+      "id": 4,
+      "tenKhachHang": "Lê Đại Thuyên"
+    },
+    {
+      "id": 5,
+      "tenKhachHang": "Lê Đại Công"
+    },
+    {
+      "id": 6,
+      "tenKhachHang": "Lê Đại Đạt"
+    },
+    {
+      "id": 7,
+      "tenKhachHang": "Lê Đại Trí"
+    },
+    {
+      "id": 8,
+      "tenKhachHang": "Lê Đại Tý"
+    },
+    {
+      "id": 9,
+      "tenKhachHang": "Lê Đại Tiên"
+    },
+    {
+      "id": 10,
+      "tenKhachHang": "Lê Đại Đại"
+    }
+  ]
+}

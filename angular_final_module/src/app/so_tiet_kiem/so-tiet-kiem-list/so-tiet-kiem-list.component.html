@@ -1,0 +1,104 @@
+<div class="p-3 px-5">
+  <h2 class="text-center fw-bold text-dark mt-3">
+    DANH SÁCH SỔ TIẾT KIỆM <i class="fa-solid fa-person-circle-question"></i></h2>
+
+  <nav class="navbar navbar-expand-lg py-0 my-0">
+    <div class="container-fluid">
+      <div class="d-flex my-2" role="search">
+        <input class="form-control me-2" type="text" placeholder="Nhập mã sổ tiết kiệm.." aria-label="Search"
+               [(ngModel)]="maSoTietkiemSearch">
+
+        <input class="form-control me-2" type="text" placeholder="Nhập tên khách hàng.." aria-label="Search"
+               [(ngModel)]="tenKhachHangSearch">
+        <button class="btn btn-light btn-outline-primary" (click)="searchByMore()">
+          <i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <table class="table table-light table-striped table-bordered" id="customerTable">
+    <thead>
+    <tr class="table-dark text-light">
+      <th class="text-center">Mã sổ <i class="fa-sharp fa-solid fa-bolt"></i></th>
+      <th>Tên khách hàng <i class="fa-solid fa-person-circle-question"></i></th>
+      <th>Ngày mở sổ <i class="fa-regular fa-calendar"></i></th>
+      <th>Thời gian bắt đầu gửi <i class="fa-solid fa-heart"></i></th>
+      <th>Kỳ hạn <i class="fa-solid fa-id-card"></i></th>
+      <th>Số tiền gửi <i class="fa-solid fa-square-phone"></i></th>
+      <th>Lãi suất <i class="fa-solid fa-map-location-dot"></i></th>
+      <th>Ưu đãi <i class="fa-solid fa-envelope-circle-check"></i></th>
+      <th class="text-center">Sửa</th>
+      <th class="text-center">Xóa</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let item of soTietKiemListPaging; index as i">
+      <td class="text-center">{{i + 1 + (curPage - 1) * numberRecord}}</td>
+      <td>{{item.khachHang.tenKhachHang | titlecase}}</td>
+      <td>{{item.ngayMoSo | date: "dd/MM/yyyy"}}</td>
+      <td>{{item.thoiGianBatDau | date: "dd/MM/yyyy"}}</td>
+      <td>{{item.kyHan.tenKyHan}}</td>
+      <td>{{item.soTien}}</td>
+      <td>{{item.laiSuat}}</td>
+      <td>{{item.uuDai}}</td>
+      <td class="text-center">
+        <a routerLink="/edit/{{item.id}}">
+          <button class="btn btn-success btn-outline-secondary btn-sm">
+            <span class="fa-solid fa-user-pen text-light h6 m-auto px-2"></span>
+          </button>
+        </a>
+      </td>
+      <td class="text-center">
+        <button data-bs-toggle="modal" data-bs-target="#deleteSoTietKiem"
+                class="btn btn-danger btn-outline-secondary btn-sm"
+                (click)="getInfoSoTietKiemDelete(item.id)">
+          <span class="fa-solid fa-person-circle-minus text-light h6 m-auto px-2"></span>
+        </button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+  <nav aria-label="..." class="justify-content-center d-flex">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" (click)="previous()" *ngIf="curPage > 1">&laquo; Trang trước</a>
+      </li>
+      <li class="page-item disabled" *ngIf="curPage <= 1">
+        <a class="page-link">&laquo;</a>
+      </li>
+
+      <li class="page-item"><a class="page-link disabled" href="" [text]="curPage + ' / ' + totalPage"></a>
+      </li>
+
+      <li class="page-item">
+        <a class="page-link" (click)="next()" *ngIf="curPage < totalPage">Trang sau &raquo;</a>
+      </li>
+      <li class="page-item disabled" *ngIf="curPage >= totalPage">
+        <a class="page-link">&raquo;</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="modal fade" id="deleteSoTietKiem" tabindex="-1" aria-labelledby="exampleModalLabel1"
+     aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content modalCSS">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel1">Bạn có chắc chắn muốn xóa?</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <span class="h6">Sổ tiết kiệm:</span><strong class="text-danger ps-2">{{maSoTietKiemDelete}}</strong>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        <button type="submit" class="btn btn-danger" data-bs-dismiss="modal" (click)="deleteSoTietKiem()">Xóa</button>
+      </div>
+    </div>
+  </div>
+</div>
